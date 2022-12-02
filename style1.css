@@ -1,0 +1,147 @@
+body
+{
+    font-family: sans-serif;
+    border-bottom: 8px solid #099268;
+    box-sizing: border-box;
+}
+header
+{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   column-gap:80px;
+   align-items: center;
+   font-family: sans-serif;
+
+}
+.testimonial-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 5px;
+    line-height: 2;
+    gap: 80px ;
+}
+.testimonial-box
+{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    column-gap: 80px;
+    align-items: center;
+    grid-column: 2/4;
+    margin-top: 50px;
+  
+}
+.chair-detail
+{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+img
+{
+    width:100%;
+    border-radius: 10px;
+
+
+    
+}
+.container
+{
+    width: 950px;
+    margin: 40px auto;
+}
+
+
+    
+   
+
+.testimonial-section
+{
+    background-color: #087;
+    color: #fff;
+   font-family: sans-serif;
+   padding: 24px;
+   border-radius: 10px;
+   
+}
+.btn--big{
+font-size: 18px;
+padding: 16px 32px;
+display: inline-block;
+text-align: center;
+}
+.btn--small{
+    font-size: 14px;
+    padding: 8px 14px;
+    display: inline-block;
+    text-align: center;
+    
+}
+li
+{
+    line-height: 3;
+    list-style-type: none;
+}
+.feature-icon{
+ stroke: #087;
+ width: 24px;
+ height: 24px;
+}
+.chair-price
+{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+     margin: 20px 20px;
+
+}
+.btn:link,.btn:visited
+{
+    background-color: #087;
+    color: #fff;
+    /* padding: 16px 32px; */
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    /* width: 140px; */
+    font-weight: bold; 
+    border-radius: 30px;
+    
+}
+.bth:hover,.btn:active
+{
+    background: color #099268;;
+}
+.header-text-box
+{
+display: grid;
+align-items: center;
+}
+.header-text-box,p
+{
+margin-top: 30px;
+line-height: 1.5;
+}
+.feature-ico
+{   
+    stroke: #099268;
+    width: 24px;
+    height: 24px;
+}
+.chair
+{
+    box-shadow: 0 10px 20px 10px rgb(0, 0, 0,0.1) ;
+    border-radius: 10px;
+}
+h3
+{
+margin-left: 35px;    
+}
+figure,img
+{
+   border-bottom-right-radius: 0px;
+}
+footer
+{
+    margin-top: 50px;
+}
